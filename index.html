@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Founders Bible Study</title>
+<meta name="description" content="Tuesday, Oct 20 at 7:30 PM at Founders Barber Co., Alexandria, VA. RSVP by text.">
+<meta property="og:title" content="The Founders Bible Study">
+<meta property="og:description" content="Tuesday, Oct 20 · 7:30 PM · Founders Barber Co., 6387 Little River Turnpike, Alexandria, VA">
+<meta property="og:image" content="https://bmtyson777-stack.github.io/founders-bible-study/invite-feed.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2a2c2b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap">
+<style>
+/* One dark look by choice: matte black, brass hairlines, Bodoni display. */
+:root{--bg:#2a2c2b;--panel:#343635;--brass:#BB9E72;--ivory:#E6CEAA;--cream:#F1E4CC;--muted:rgba(230,206,170,.62);
+ --display:"Libre Bodoni","Bodoni 72",Georgia,serif;--body:"Poppins",-apple-system,Helvetica,Arial,sans-serif;color-scheme:dark}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--cream);font-family:var(--body);font-weight:300;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;min-height:100vh}
+.wrap{max-width:480px;margin:0 auto;padding-block:max(28px,env(safe-area-inset-top)) max(40px,env(safe-area-inset-bottom));
+ padding-left:max(22px,env(safe-area-inset-left));padding-right:max(22px,env(safe-area-inset-right));display:flex;flex-direction:column;gap:28px}
+.top{display:flex;justify-content:space-between;align-items:center}
+.eyebrow,.k,.label{font-weight:500;font-size:11px;letter-spacing:.34em;text-transform:uppercase;color:var(--brass)}
+.mono{width:44px;height:44px;border:1px solid var(--brass);border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-style:italic;font-size:26px;color:var(--brass);padding-bottom:3px}
+h1{font-family:var(--display);font-weight:400;line-height:.9;text-wrap:balance}
+h1 .a{display:block;font-size:44px}
+h1 .b{display:block;font-size:84px;font-weight:700;letter-spacing:-.02em;color:var(--ivory)}
+h1 .c{display:block;font-size:52px;font-style:italic;color:var(--brass)}
+.verse{font-family:var(--display);font-style:italic;font-size:19px;line-height:1.4;border-top:1px solid var(--brass);padding-top:18px}
+.verse span{display:block;margin-top:8px;font-family:var(--body);font-style:normal;font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--brass)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-block:1px solid var(--brass)}
+.grid>div{padding:14px 0 14px 14px;border-left:1px solid rgba(187,158,114,.4)}
+.grid>div:first-child{border-left:0;padding-left:0}
+.v{font-family:var(--display);font-size:24px;line-height:1.1;margin-top:4px}
+.addr a{color:var(--cream);text-decoration:none;border-bottom:1px solid rgba(187,158,114,.5)}
+.addr b{display:block;font-weight:600;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ivory);margin-bottom:2px}
+form{display:flex;flex-direction:column;gap:12px;background:var(--panel);padding:22px 20px;border-top:2px solid var(--brass)}
+form h2{font-family:var(--display);font-weight:400;font-size:28px;line-height:1.1}
+input{width:100%;font:400 18px var(--body);color:var(--cream);background:var(--bg);border:1px solid rgba(187,158,114,.55);border-radius:0;padding:14px 14px;outline:none}
+input:focus{border-color:var(--brass);box-shadow:0 0 0 2px rgba(187,158,114,.35)}
+input::placeholder{color:rgba(230,206,170,.4)}
+.btn{display:block;width:100%;text-align:center;font:600 13px var(--body);letter-spacing:.28em;text-transform:uppercase;color:var(--bg);background:var(--brass);border:0;padding:17px 12px;cursor:pointer;text-decoration:none}
+.btn:focus-visible,.ghost:focus-visible,a:focus-visible{outline:2px solid var(--ivory);outline-offset:3px}
+.btn[aria-disabled="true"]{opacity:.45}
+.hint{font-size:13px;color:var(--muted)}
+.err{font-size:13px;color:#e8b4a0}
+.done{border:1px solid var(--brass);padding:16px;font-size:14px}
+.done strong{font-family:var(--display);font-weight:400;font-size:20px;display:block;color:var(--ivory);margin-bottom:4px}
+.fallback{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.fallback .num{color:var(--cream);font-weight:500;user-select:all}
+.ghost{font:500 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--brass);background:none;border:1px solid rgba(187,158,114,.55);padding:7px 10px;cursor:pointer}
+.cal{display:flex;gap:10px;flex-wrap:wrap}
+.cal a{flex:1 1 140px;text-align:center;font:500 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--brass);border:1px solid rgba(187,158,114,.55);padding:12px 8px;text-decoration:none}
+footer{text-align:center;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="top"><span class="eyebrow">Founders Barber Co.</span><span class="mono" aria-hidden="true">F</span></div>
+
+  <h1><span class="a">The Founders</span><span class="b">Bible</span><span class="c">Study</span></h1>
+
+  <p class="verse">“As iron sharpens iron, so one person sharpens another.”<span>Proverbs 27:17</span></p>
+
+  <div class="grid">
+    <div><div class="k">Tuesday</div><div class="v">Oct 20</div></div>
+    <div><div class="k">Doors</div><div class="v">7:30 PM</div></div>
+    <div><div class="k">Bring</div><div class="v">A Bible</div></div>
+  </div>
+
+  <p class="addr"><b>At the shop</b>
+    <a href="https://maps.google.com/?q=6387+Little+River+Turnpike,+Alexandria,+VA" target="_blank" rel="noopener">6387 Little River Turnpike, Alexandria, VA</a></p>
+
+  <form id="rsvp" novalidate>
+    <h2>Save your seat</h2>
+    <label class="label" for="name">Your name</label>
+    <input id="name" name="name" type="text" autocomplete="name" autocapitalize="words" placeholder="First and last name" maxlength="60" required>
+    <p class="err" id="err" hidden>Add your name so we know who's coming.</p>
+    <button class="btn" type="submit">Text my RSVP</button>
+    <p class="hint">Your Messages app opens with the RSVP written for you. Tap send and you're on the list.</p>
+    <div class="done" id="done" hidden><strong>Almost there.</strong>Hit send in Messages to lock in your seat. If Messages didn't open, use the number below.</div>
+    <div class="fallback">
+      <span>Or text “RSVP” and your name to</span>
+      <span class="num" id="num">(703) 963-3090</span>
+      <button class="ghost" type="button" id="copy">Copy number</button>
+    </div>
+  </form>
+
+  <div class="cal">
+    <a id="gcal" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Founders%20Bible%20Study&dates=20261020T233000Z/20261021T010000Z&location=Founders%20Barber%20Co.%2C%206387%20Little%20River%20Turnpike%2C%20Alexandria%2C%20VA&details=Bring%20a%20Bible.%20Bring%20a%20friend.">Google Calendar</a>
+    <a id="ics" download="founders-bible-study.ics" href="#">Apple Calendar</a>
+  </div>
+
+  <footer>All are welcome · Bring a friend</footer>
+</main>
+<script>
+(function(){
+  var PHONE = "+17039633090";
+  var form = document.getElementById("rsvp"), name = document.getElementById("name"),
+      err = document.getElementById("err"), done = document.getElementById("done");
+
+  function smsLink(n){
+    var body = "RSVP - Founders Bible Study, Tue Oct 20 at 7:30 PM. Name: " + n;
+    // iOS reads "&body=", Android and others read "?body=".
+    var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    return "sms:" + PHONE + (ios ? "&" : "?") + "body=" + encodeURIComponent(body);
+  }
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var n = name.value.replace(/\s+/g, " ").trim();
+    if (!n){ err.hidden = false; name.focus(); return; }
+    err.hidden = true;
+    done.hidden = false;
+    window.location.href = smsLink(n);
+  });
+  name.addEventListener("input", function(){ if (name.value.trim()) err.hidden = true; });
+
+  document.getElementById("copy").addEventListener("click", function(){
+    var b = this;
+    function ok(){ b.textContent = "Copied"; setTimeout(function(){ b.textContent = "Copy number"; }, 1800); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText("703-963-3090").then(ok, select);
+    } else select();
+    function select(){ var r = document.createRange(); r.selectNodeContents(document.getElementById("num"));
+      var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+  });
+
+  var ics = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Founders Barber Co.//Bible Study//EN","BEGIN:VEVENT",
+    "UID:founders-bible-study-20261020@foundersbarber","DTSTAMP:20261019T120000Z",
+    "DTSTART:20261020T233000Z","DTEND:20261021T010000Z","SUMMARY:Founders Bible Study",
+    "LOCATION:Founders Barber Co.\\, 6387 Little River Turnpike\\, Alexandria\\, VA",
+    "DESCRIPTION:Bring a Bible. Bring a friend.","END:VEVENT","END:VCALENDAR"].join("\r\n");
+  document.getElementById("ics").href = "data:text/calendar;charset=utf-8," + encodeURIComponent(ics);
+})();
+</script>
+</body>
+</html>
